@@ -27,6 +27,23 @@ module.exports = {
         use: [
           'babel-loader',
           //   {
+          //     loader: 'babel-loader',
+          //     options: {
+          //       presets: ['@babel/preset-env', '@babel/preset-react'],
+          //       plugins: [
+          //         [
+          //           'module-resolver',
+          //           {
+          //             root: ['./src/**'],
+          //             alias: {
+          //               features: './src/features'
+          //             }
+          //           }
+          //         ]
+          //       ]
+          //     }
+          //   },
+          //   {
           //     loader: 'eslint-loader',
           //     options: {
           //       fix: false,

@@ -7,7 +7,7 @@ import apisauce, {
   ApiOkResponse
 } from 'apisauce'
 
-class ApiClient {
+export default class ApiClient {
   private token: string
   private baseURL: string
   private apiSauce: ApisauceInstance
